@@ -1,7 +1,10 @@
 group 'DummySnapCI'
 version '1.0-SNAPSHOT'
 
-apply plugin: 'java'
+
+apply plugin: 'application'
+
+mainClassName = "Hello"
 
 sourceCompatibility = 1.5
 
